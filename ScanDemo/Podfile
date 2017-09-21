@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+target ‘ScanDemo’ do
+pod 'AFNetworking', '~> 3.1.0'
+pod 'ZXingObjC'
+pod 'ZYCornerRadius'
+pod 'Masonry'
+end
+

@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19070C8C42FA61681A376AE8 /* libPods-ScanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCAC6A099460B2FCE608661A /* libPods-ScanDemo.a */; };
+		5597431B1F2877AC0025171C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597431A1F2877AC0025171C /* main.m */; };
+		5597431E1F2877AC0025171C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597431D1F2877AC0025171C /* AppDelegate.m */; };
+		559743211F2877AC0025171C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743201F2877AC0025171C /* ViewController.m */; };
+		559743241F2877AC0025171C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559743221F2877AC0025171C /* Main.storyboard */; };
+		559743261F2877AC0025171C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559743251F2877AC0025171C /* Assets.xcassets */; };
+		559743291F2877AC0025171C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559743271F2877AC0025171C /* LaunchScreen.storyboard */; };
+		559743341F2877AC0025171C /* ScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743331F2877AC0025171C /* ScanDemoTests.m */; };
+		5597433F1F2877AC0025171C /* ScanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597433E1F2877AC0025171C /* ScanDemoUITests.m */; };
+		559743741F2878360025171C /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5597434D1F2878360025171C /* CodeScan.bundle */; };
+		559743751F2878360025171C /* LBXScanLineAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743501F2878360025171C /* LBXScanLineAnimation.m */; };
+		559743761F2878360025171C /* LBXScanNative.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743521F2878360025171C /* LBXScanNative.m */; };
+		559743771F2878360025171C /* LBXScanNetAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743541F2878360025171C /* LBXScanNetAnimation.m */; };
+		559743781F2878360025171C /* LBXScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743561F2878360025171C /* LBXScanResult.m */; };
+		559743791F2878360025171C /* LBXScanVideoZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743581F2878360025171C /* LBXScanVideoZoomView.m */; };
+		5597437A1F2878360025171C /* LBXScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597435A1F2878360025171C /* LBXScanView.m */; };
+		5597437B1F2878360025171C /* LBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597435C1F2878360025171C /* LBXScanViewController.m */; };
+		5597437C1F2878360025171C /* LBXScanViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597435E1F2878360025171C /* LBXScanViewStyle.m */; };
+		5597437D1F2878360025171C /* LBXScanWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743601F2878360025171C /* LBXScanWrapper.m */; };
+		5597437E1F2878360025171C /* LBXZXCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743621F2878360025171C /* LBXZXCapture.m */; };
+		5597437F1F2878360025171C /* ZXingWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743651F2878360025171C /* ZXingWrapper.m */; };
+		559743801F2878360025171C /* LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743681F2878360025171C /* LBXAlertAction.m */; };
+		559743811F2878360025171C /* MyQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597436A1F2878360025171C /* MyQRViewController.m */; };
+		559743821F2878360025171C /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597436C1F2878360025171C /* ScanResultViewController.m */; };
+		559743831F2878360025171C /* ScanResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5597436D1F2878360025171C /* ScanResultViewController.xib */; };
+		559743841F2878360025171C /* SubLBXScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597436F1F2878360025171C /* SubLBXScanViewController.m */; };
+		559743851F2878360025171C /* UIActionSheet+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743711F2878360025171C /* UIActionSheet+LBXAlertAction.m */; };
+		559743861F2878360025171C /* UIAlertView+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 559743731F2878360025171C /* UIAlertView+LBXAlertAction.m */; };
+		559746581F2884370025171C /* GQGesVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 559746571F2884370025171C /* GQGesVCTransition.m */; };
+		5597465B1F2884610025171C /* ZCDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597465A1F2884610025171C /* ZCDNavigationController.m */; };
+		5597465E1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5597465D1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559743301F2877AC0025171C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5597430E1F2877AC0025171C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559743151F2877AC0025171C;
+			remoteInfo = ScanDemo;
+		};
+		5597433B1F2877AC0025171C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5597430E1F2877AC0025171C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559743151F2877AC0025171C;
+			remoteInfo = ScanDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559743161F2877AC0025171C /* ScanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5597431A1F2877AC0025171C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5597431C1F2877AC0025171C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5597431D1F2877AC0025171C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5597431F1F2877AC0025171C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		559743201F2877AC0025171C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		559743231F2877AC0025171C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559743251F2877AC0025171C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559743281F2877AC0025171C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5597432A1F2877AC0025171C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5597432F1F2877AC0025171C /* ScanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		559743331F2877AC0025171C /* ScanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanDemoTests.m; sourceTree = "<group>"; };
+		559743351F2877AC0025171C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5597433A1F2877AC0025171C /* ScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5597433E1F2877AC0025171C /* ScanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanDemoUITests.m; sourceTree = "<group>"; };
+		559743401F2877AC0025171C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5597434D1F2878360025171C /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		5597434F1F2878360025171C /* LBXScanLineAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanLineAnimation.h; sourceTree = "<group>"; };
+		559743501F2878360025171C /* LBXScanLineAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanLineAnimation.m; sourceTree = "<group>"; };
+		559743511F2878360025171C /* LBXScanNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNative.h; sourceTree = "<group>"; };
+		559743521F2878360025171C /* LBXScanNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNative.m; sourceTree = "<group>"; };
+		559743531F2878360025171C /* LBXScanNetAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanNetAnimation.h; sourceTree = "<group>"; };
+		559743541F2878360025171C /* LBXScanNetAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanNetAnimation.m; sourceTree = "<group>"; };
+		559743551F2878360025171C /* LBXScanResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanResult.h; sourceTree = "<group>"; };
+		559743561F2878360025171C /* LBXScanResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanResult.m; sourceTree = "<group>"; };
+		559743571F2878360025171C /* LBXScanVideoZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanVideoZoomView.h; sourceTree = "<group>"; };
+		559743581F2878360025171C /* LBXScanVideoZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanVideoZoomView.m; sourceTree = "<group>"; };
+		559743591F2878360025171C /* LBXScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanView.h; sourceTree = "<group>"; };
+		5597435A1F2878360025171C /* LBXScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanView.m; sourceTree = "<group>"; };
+		5597435B1F2878360025171C /* LBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewController.h; sourceTree = "<group>"; };
+		5597435C1F2878360025171C /* LBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewController.m; sourceTree = "<group>"; };
+		5597435D1F2878360025171C /* LBXScanViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanViewStyle.h; sourceTree = "<group>"; };
+		5597435E1F2878360025171C /* LBXScanViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanViewStyle.m; sourceTree = "<group>"; };
+		5597435F1F2878360025171C /* LBXScanWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXScanWrapper.h; sourceTree = "<group>"; };
+		559743601F2878360025171C /* LBXScanWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanWrapper.m; sourceTree = "<group>"; };
+		559743611F2878360025171C /* LBXZXCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCapture.h; sourceTree = "<group>"; };
+		559743621F2878360025171C /* LBXZXCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXZXCapture.m; sourceTree = "<group>"; };
+		559743631F2878360025171C /* LBXZXCaptureDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXZXCaptureDelegate.h; sourceTree = "<group>"; };
+		559743641F2878360025171C /* ZXingWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXingWrapper.h; sourceTree = "<group>"; };
+		559743651F2878360025171C /* ZXingWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXingWrapper.m; sourceTree = "<group>"; };
+		559743671F2878360025171C /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
+		559743681F2878360025171C /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
+		559743691F2878360025171C /* MyQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQRViewController.h; sourceTree = "<group>"; };
+		5597436A1F2878360025171C /* MyQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQRViewController.m; sourceTree = "<group>"; };
+		5597436B1F2878360025171C /* ScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
+		5597436C1F2878360025171C /* ScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
+		5597436D1F2878360025171C /* ScanResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanResultViewController.xib; sourceTree = "<group>"; };
+		5597436E1F2878360025171C /* SubLBXScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubLBXScanViewController.h; sourceTree = "<group>"; };
+		5597436F1F2878360025171C /* SubLBXScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubLBXScanViewController.m; sourceTree = "<group>"; };
+		559743701F2878360025171C /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
+		559743711F2878360025171C /* UIActionSheet+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+LBXAlertAction.m"; sourceTree = "<group>"; };
+		559743721F2878360025171C /* UIAlertView+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LBXAlertAction.h"; sourceTree = "<group>"; };
+		559743731F2878360025171C /* UIAlertView+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+LBXAlertAction.m"; sourceTree = "<group>"; };
+		559746561F2884370025171C /* GQGesVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQGesVCTransition.h; sourceTree = "<group>"; };
+		559746571F2884370025171C /* GQGesVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQGesVCTransition.m; sourceTree = "<group>"; };
+		559746591F2884610025171C /* ZCDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDNavigationController.h; sourceTree = "<group>"; };
+		5597465A1F2884610025171C /* ZCDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDNavigationController.m; sourceTree = "<group>"; };
+		5597465C1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DCBarButtonItem.h"; sourceTree = "<group>"; };
+		5597465D1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DCBarButtonItem.m"; sourceTree = "<group>"; };
+		B7ECDA3FDEF7DD2C7755414E /* Pods-ScanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScanDemo/Pods-ScanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CCAC6A099460B2FCE608661A /* libPods-ScanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D64C565C3AF51490C7DA8030 /* Pods-ScanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScanDemo/Pods-ScanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559743131F2877AC0025171C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19070C8C42FA61681A376AE8 /* libPods-ScanDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5597432C1F2877AC0025171C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559743371F2877AC0025171C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A3858098F23DB00DA4695C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCAC6A099460B2FCE608661A /* libPods-ScanDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5597430D1F2877AC0025171C = {
+			isa = PBXGroup;
+			children = (
+				559743181F2877AC0025171C /* ScanDemo */,
+				559743321F2877AC0025171C /* ScanDemoTests */,
+				5597433D1F2877AC0025171C /* ScanDemoUITests */,
+				559743171F2877AC0025171C /* Products */,
+				589B99A700B6220DCD3A8CAF /* Pods */,
+				05A3858098F23DB00DA4695C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		559743171F2877AC0025171C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559743161F2877AC0025171C /* ScanDemo.app */,
+				5597432F1F2877AC0025171C /* ScanDemoTests.xctest */,
+				5597433A1F2877AC0025171C /* ScanDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559743181F2877AC0025171C /* ScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5597431C1F2877AC0025171C /* AppDelegate.h */,
+				5597431D1F2877AC0025171C /* AppDelegate.m */,
+				5597431F1F2877AC0025171C /* ViewController.h */,
+				559743201F2877AC0025171C /* ViewController.m */,
+				559746591F2884610025171C /* ZCDNavigationController.h */,
+				5597465A1F2884610025171C /* ZCDNavigationController.m */,
+				5597465C1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.h */,
+				5597465D1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.m */,
+				559743221F2877AC0025171C /* Main.storyboard */,
+				559746551F2884370025171C /* GQGesVCTransition */,
+				5597434C1F2878360025171C /* RichScan */,
+				559743251F2877AC0025171C /* Assets.xcassets */,
+				559743271F2877AC0025171C /* LaunchScreen.storyboard */,
+				5597432A1F2877AC0025171C /* Info.plist */,
+				559743191F2877AC0025171C /* Supporting Files */,
+			);
+			path = ScanDemo;
+			sourceTree = "<group>";
+		};
+		559743191F2877AC0025171C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5597431A1F2877AC0025171C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		559743321F2877AC0025171C /* ScanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				559743331F2877AC0025171C /* ScanDemoTests.m */,
+				559743351F2877AC0025171C /* Info.plist */,
+			);
+			path = ScanDemoTests;
+			sourceTree = "<group>";
+		};
+		5597433D1F2877AC0025171C /* ScanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5597433E1F2877AC0025171C /* ScanDemoUITests.m */,
+				559743401F2877AC0025171C /* Info.plist */,
+			);
+			path = ScanDemoUITests;
+			sourceTree = "<group>";
+		};
+		5597434C1F2878360025171C /* RichScan */ = {
+			isa = PBXGroup;
+			children = (
+				5597434D1F2878360025171C /* CodeScan.bundle */,
+				5597434E1F2878360025171C /* LBXScan */,
+				559743661F2878360025171C /* subLBX */,
+			);
+			path = RichScan;
+			sourceTree = "<group>";
+		};
+		5597434E1F2878360025171C /* LBXScan */ = {
+			isa = PBXGroup;
+			children = (
+				5597434F1F2878360025171C /* LBXScanLineAnimation.h */,
+				559743501F2878360025171C /* LBXScanLineAnimation.m */,
+				559743511F2878360025171C /* LBXScanNative.h */,
+				559743521F2878360025171C /* LBXScanNative.m */,
+				559743531F2878360025171C /* LBXScanNetAnimation.h */,
+				559743541F2878360025171C /* LBXScanNetAnimation.m */,
+				559743551F2878360025171C /* LBXScanResult.h */,
+				559743561F2878360025171C /* LBXScanResult.m */,
+				559743571F2878360025171C /* LBXScanVideoZoomView.h */,
+				559743581F2878360025171C /* LBXScanVideoZoomView.m */,
+				559743591F2878360025171C /* LBXScanView.h */,
+				5597435A1F2878360025171C /* LBXScanView.m */,
+				5597435B1F2878360025171C /* LBXScanViewController.h */,
+				5597435C1F2878360025171C /* LBXScanViewController.m */,
+				5597435D1F2878360025171C /* LBXScanViewStyle.h */,
+				5597435E1F2878360025171C /* LBXScanViewStyle.m */,
+				5597435F1F2878360025171C /* LBXScanWrapper.h */,
+				559743601F2878360025171C /* LBXScanWrapper.m */,
+				559743611F2878360025171C /* LBXZXCapture.h */,
+				559743621F2878360025171C /* LBXZXCapture.m */,
+				559743631F2878360025171C /* LBXZXCaptureDelegate.h */,
+				559743641F2878360025171C /* ZXingWrapper.h */,
+				559743651F2878360025171C /* ZXingWrapper.m */,
+			);
+			path = LBXScan;
+			sourceTree = "<group>";
+		};
+		559743661F2878360025171C /* subLBX */ = {
+			isa = PBXGroup;
+			children = (
+				559743671F2878360025171C /* LBXAlertAction.h */,
+				559743681F2878360025171C /* LBXAlertAction.m */,
+				559743691F2878360025171C /* MyQRViewController.h */,
+				5597436A1F2878360025171C /* MyQRViewController.m */,
+				5597436B1F2878360025171C /* ScanResultViewController.h */,
+				5597436C1F2878360025171C /* ScanResultViewController.m */,
+				5597436D1F2878360025171C /* ScanResultViewController.xib */,
+				5597436E1F2878360025171C /* SubLBXScanViewController.h */,
+				5597436F1F2878360025171C /* SubLBXScanViewController.m */,
+				559743701F2878360025171C /* UIActionSheet+LBXAlertAction.h */,
+				559743711F2878360025171C /* UIActionSheet+LBXAlertAction.m */,
+				559743721F2878360025171C /* UIAlertView+LBXAlertAction.h */,
+				559743731F2878360025171C /* UIAlertView+LBXAlertAction.m */,
+			);
+			path = subLBX;
+			sourceTree = "<group>";
+		};
+		559746551F2884370025171C /* GQGesVCTransition */ = {
+			isa = PBXGroup;
+			children = (
+				559746561F2884370025171C /* GQGesVCTransition.h */,
+				559746571F2884370025171C /* GQGesVCTransition.m */,
+			);
+			path = GQGesVCTransition;
+			sourceTree = "<group>";
+		};
+		589B99A700B6220DCD3A8CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D64C565C3AF51490C7DA8030 /* Pods-ScanDemo.debug.xcconfig */,
+				B7ECDA3FDEF7DD2C7755414E /* Pods-ScanDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559743151F2877AC0025171C /* ScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559743431F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemo" */;
+			buildPhases = (
+				77D97F6E98517B6BF81C6500 /* [CP] Check Pods Manifest.lock */,
+				559743121F2877AC0025171C /* Sources */,
+				559743131F2877AC0025171C /* Frameworks */,
+				559743141F2877AC0025171C /* Resources */,
+				22968B3E341F56D8A3AB0861 /* [CP] Embed Pods Frameworks */,
+				3DD7D93D9AB7C81B4B7675AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanDemo;
+			productName = ScanDemo;
+			productReference = 559743161F2877AC0025171C /* ScanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5597432E1F2877AC0025171C /* ScanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559743461F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemoTests" */;
+			buildPhases = (
+				5597432B1F2877AC0025171C /* Sources */,
+				5597432C1F2877AC0025171C /* Frameworks */,
+				5597432D1F2877AC0025171C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559743311F2877AC0025171C /* PBXTargetDependency */,
+			);
+			name = ScanDemoTests;
+			productName = ScanDemoTests;
+			productReference = 5597432F1F2877AC0025171C /* ScanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559743391F2877AC0025171C /* ScanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559743491F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemoUITests" */;
+			buildPhases = (
+				559743361F2877AC0025171C /* Sources */,
+				559743371F2877AC0025171C /* Frameworks */,
+				559743381F2877AC0025171C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5597433C1F2877AC0025171C /* PBXTargetDependency */,
+			);
+			name = ScanDemoUITests;
+			productName = ScanDemoUITests;
+			productReference = 5597433A1F2877AC0025171C /* ScanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5597430E1F2877AC0025171C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZCD;
+				TargetAttributes = {
+					559743151F2877AC0025171C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					5597432E1F2877AC0025171C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559743151F2877AC0025171C;
+					};
+					559743391F2877AC0025171C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 559743151F2877AC0025171C;
+					};
+				};
+			};
+			buildConfigurationList = 559743111F2877AC0025171C /* Build configuration list for PBXProject "ScanDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5597430D1F2877AC0025171C;
+			productRefGroup = 559743171F2877AC0025171C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559743151F2877AC0025171C /* ScanDemo */,
+				5597432E1F2877AC0025171C /* ScanDemoTests */,
+				559743391F2877AC0025171C /* ScanDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559743141F2877AC0025171C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559743291F2877AC0025171C /* LaunchScreen.storyboard in Resources */,
+				559743831F2878360025171C /* ScanResultViewController.xib in Resources */,
+				559743261F2877AC0025171C /* Assets.xcassets in Resources */,
+				559743241F2877AC0025171C /* Main.storyboard in Resources */,
+				559743741F2878360025171C /* CodeScan.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5597432D1F2877AC0025171C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559743381F2877AC0025171C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22968B3E341F56D8A3AB0861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanDemo/Pods-ScanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD7D93D9AB7C81B4B7675AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScanDemo/Pods-ScanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D97F6E98517B6BF81C6500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559743121F2877AC0025171C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5597437E1F2878360025171C /* LBXZXCapture.m in Sources */,
+				559743751F2878360025171C /* LBXScanLineAnimation.m in Sources */,
+				5597437F1F2878360025171C /* ZXingWrapper.m in Sources */,
+				559743761F2878360025171C /* LBXScanNative.m in Sources */,
+				5597437B1F2878360025171C /* LBXScanViewController.m in Sources */,
+				559743211F2877AC0025171C /* ViewController.m in Sources */,
+				559743791F2878360025171C /* LBXScanVideoZoomView.m in Sources */,
+				559743811F2878360025171C /* MyQRViewController.m in Sources */,
+				5597437C1F2878360025171C /* LBXScanViewStyle.m in Sources */,
+				5597431E1F2877AC0025171C /* AppDelegate.m in Sources */,
+				559743781F2878360025171C /* LBXScanResult.m in Sources */,
+				559743841F2878360025171C /* SubLBXScanViewController.m in Sources */,
+				559746581F2884370025171C /* GQGesVCTransition.m in Sources */,
+				5597465B1F2884610025171C /* ZCDNavigationController.m in Sources */,
+				559743771F2878360025171C /* LBXScanNetAnimation.m in Sources */,
+				559743851F2878360025171C /* UIActionSheet+LBXAlertAction.m in Sources */,
+				5597465E1F2884830025171C /* UIBarButtonItem+DCBarButtonItem.m in Sources */,
+				5597437A1F2878360025171C /* LBXScanView.m in Sources */,
+				559743821F2878360025171C /* ScanResultViewController.m in Sources */,
+				5597431B1F2877AC0025171C /* main.m in Sources */,
+				559743801F2878360025171C /* LBXAlertAction.m in Sources */,
+				5597437D1F2878360025171C /* LBXScanWrapper.m in Sources */,
+				559743861F2878360025171C /* UIAlertView+LBXAlertAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5597432B1F2877AC0025171C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559743341F2877AC0025171C /* ScanDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559743361F2877AC0025171C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5597433F1F2877AC0025171C /* ScanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559743311F2877AC0025171C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559743151F2877AC0025171C /* ScanDemo */;
+			targetProxy = 559743301F2877AC0025171C /* PBXContainerItemProxy */;
+		};
+		5597433C1F2877AC0025171C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559743151F2877AC0025171C /* ScanDemo */;
+			targetProxy = 5597433B1F2877AC0025171C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		559743221F2877AC0025171C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559743231F2877AC0025171C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559743271F2877AC0025171C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559743281F2877AC0025171C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559743411F2877AC0025171C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		559743421F2877AC0025171C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559743441F2877AC0025171C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D64C565C3AF51490C7DA8030 /* Pods-ScanDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		559743451F2877AC0025171C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7ECDA3FDEF7DD2C7755414E /* Pods-ScanDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScanDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		559743471F2877AC0025171C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanDemo.app/ScanDemo";
+			};
+			name = Debug;
+		};
+		559743481F2877AC0025171C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScanDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScanDemo.app/ScanDemo";
+			};
+			name = Release;
+		};
+		5597434A1F2877AC0025171C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScanDemo;
+			};
+			name = Debug;
+		};
+		5597434B1F2877AC0025171C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZCD.ScanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScanDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559743111F2877AC0025171C /* Build configuration list for PBXProject "ScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559743411F2877AC0025171C /* Debug */,
+				559743421F2877AC0025171C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559743431F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559743441F2877AC0025171C /* Debug */,
+				559743451F2877AC0025171C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559743461F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559743471F2877AC0025171C /* Debug */,
+				559743481F2877AC0025171C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559743491F2877AC0025171C /* Build configuration list for PBXNativeTarget "ScanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5597434A1F2877AC0025171C /* Debug */,
+				5597434B1F2877AC0025171C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5597430E1F2877AC0025171C /* Project object */;
+}
